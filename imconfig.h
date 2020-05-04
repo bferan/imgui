@@ -65,8 +65,8 @@
 //---- Define constructor and implicit cast operators to convert back<>forth between your math types and ImVec2/ImVec4.
 // This will be inlined as part of ImVec2 and ImVec4 class declarations.
 
-#include "armada/core/Vector2.h"
-#include "armada/core/Vector4.h"
+#include "core/Vector2.h"
+#include "core/Vector4.h"
 
 #define IM_VEC2_CLASS_EXTRA                                                       \
         ImVec2(const armada::Vector2& f) { x = f.X; y = f.Y; }                    \
